@@ -14,4 +14,26 @@ CLI repo:
     packdir/pd.git
 
 
+## 目录树结构
+
+目录结构：
+
+    projects    项目
+    docs        文档
+
+.
+├── README.md
+├── docs
+└── projects
+    ├── 01-pd
+    │   └── README.md
+    └── 02-Sketchup.pipe.tools
+        └── README.md
+
+
+
+
+
+
+
 
