@@ -1,5 +1,7 @@
 
-# 基于文件系统的项目管理工具集
+# 基于文件系统的项目管理工具集 packdir
+
+packdir - File-system based tools for project management and documentation.
 
 Files repo:
 
@@ -21,6 +23,8 @@ CLI repo:
     projects    项目
     docs        文档
 
+
+```
 .
 ├── README.md
 ├── docs
@@ -29,6 +33,7 @@ CLI repo:
     │   └── README.md
     └── 02-Sketchup.pipe.tools
         └── README.md
+```
 
 
 
