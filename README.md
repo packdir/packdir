@@ -28,6 +28,11 @@ CLI repo:
 .
 ├── README.md
 ├── docs
+├── kanbans
+│   ├── 1-ready
+│   ├── 2-in.process
+│   ├── 3-done
+│   └── README.md
 └── projects
     ├── 01-pd
     │   └── README.md
