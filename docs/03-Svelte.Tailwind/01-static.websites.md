@@ -90,11 +90,44 @@ export default {
 
 Svelte 文档：[Static site generation](https://kit.svelte.dev/docs/adapter-static)
 
+安装：
+
+    npm i -D @sveltejs/adapter-static@latest
+
+修改 svelte.config.js：
+
+```
+import adapter from '@sveltejs/adapter-static';
+
+export default {
+    kit: {
+        adapter: adapter({
+            // default options are shown. On some platforms
+            // these options are set automatically — see below
+            pages: 'build',
+            assets: 'build',
+            fallback: undefined,
+            precompress: false,
+            strict: true
+        })
+    }
+};
+```
+
+创建文件 `./src/routes/+layout.js`：
+
+```
+// This can be false if you're using a fallback (i.e. SPA mode)
+export const prerender = true;
+```
 
 
 
+## 编译与部署
 
-## 部署
+编译：
+
+    npm run build
 
 使用 rsync 同步编译好的静态文件，完成部署：
 
