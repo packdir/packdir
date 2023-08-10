@@ -9,6 +9,8 @@
 
 3. **Making changes feels safer**. CSS is global and you never know what you’re breaking when you make a change. Classes in your HTML are local, so you can change them without worrying about something else breaking.
 
+Tailwind 初看起来像是内联样式的命名化版本，但是 TW 加入了更多的设计功能，因此，它是重新发明了 CSS 的写法。
+
 
 ## Why packdir?
 
