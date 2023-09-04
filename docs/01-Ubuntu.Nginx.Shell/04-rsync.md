@@ -44,4 +44,9 @@ rsync 的优势在于：
     rsync --exclude "node_modules" SOURCE DESTINATION
 
 
+## 参考
+
+[16 Rsync Command Examples for Efficient File Synchronization](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
+
+
 
